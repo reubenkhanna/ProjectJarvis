@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/jarvis_icon_margin_left"
+        android:background="@null"
+        android:src="@mipmap/jarvis_face"
+        />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/text_view_jarvis_marginLeftTopRight"
+        android:layout_marginTop="@dimen/text_view_jarvis_marginLeftTopRight"
+        android:layout_marginRight="@dimen/text_view_jarvis_marginLeftTopRight"
+        android:layout_marginBottom="@dimen/text_view_jarvis_marginBottom"
+        android:textColorLink="@color/bgColorSelf"
+        android:autoLink="web"
+        android:background="@drawable/bg_jarvis_bubble"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/text_size_chat" />
+
+</LinearLayout>

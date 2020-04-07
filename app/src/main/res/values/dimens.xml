@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="pad_left_chat_self">16dp</dimen>
+    <dimen name="pad_bottom_chat_self">5dp</dimen>
+    <dimen name="pad_top_chat_self">10dp</dimen>
+    <dimen name="chat_self_margin_right">10dp</dimen>
+    <dimen name="text_size_chat">14sp</dimen>
+    <dimen name="icon_margin_left">5dp</dimen>
+    <dimen name="text_view_jarvis_marginLeftTopRight">5dp</dimen>
+    <dimen name="text_view_jarvis_marginBottom">10dp</dimen>
+    <dimen name="recycler_view_bottom_margin">65dp</dimen>
+    <dimen name="horizontal_line_height">2dp</dimen>
+    <dimen name="bottom_linear_layout_padding_top">10dp</dimen>
+    <dimen name="jarvis_icon_margin_left">5dp</dimen>
+    <dimen name="image_button_margin_bottom">10dp</dimen>
+    <dimen name="image_button_padding_top">5dp</dimen>
+    <dimen name="image_button_padding_bottom">2dp</dimen>
+    <dimen name="image_button_padding_bottom_send">3dp</dimen>
+    <dimen name="image_button_elevation">0dp</dimen>
+    <dimen name ="edit_text_layout_marginStart">8dp</dimen>
+    <dimen name ="edit_text_layout_marginEnd">8dp</dimen>
+    <dimen name ="edit_text_layout_width">0dp</dimen>
+    <dimen name ="edit_text_layout_marginBottom">10dp</dimen>
+    <dimen name ="edit_text_paddingTop">5dp</dimen>
+    <dimen name ="edit_text_paddingBottom">5dp</dimen>
+    <dimen name ="edit_text_paddingStart">10dp</dimen>
+    <dimen name ="edit_text_paddingEnd">10dp</dimen>
+    <dimen name="image_button_layout_marginEnd">8dp</dimen>
+
+</resources>
+

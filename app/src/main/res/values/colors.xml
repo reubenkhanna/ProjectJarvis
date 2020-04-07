@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#061B2D</color>
+    <color name="colorPrimaryDark">#061B2D</color>
+    <color name="colorAccent">#6170F7</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="bgColorSelf">#EE6A6E</color>
+    <color name="bgColorJarvis">#6C5AF9</color>
+    <color name="horizontalLine">#182B3C</color>
+    <color name="editTextHint">#384957</color>
+</resources>

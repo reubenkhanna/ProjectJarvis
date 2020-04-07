@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Jarvis</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_edit_text">Ask me anything?</string>
+    <string name="speech_prompt">Say something…</string>
+
+</resources>

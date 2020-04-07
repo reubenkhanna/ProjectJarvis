@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/pad_left_chat_self"
+    android:paddingTop="@dimen/pad_top_chat_self"
+    android:paddingBottom="@dimen/pad_bottom_chat_self">
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/chat_self_margin_right"
+        android:background="@drawable/bg_self_bubble"
+        android:textColor="@color/textColor"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/text_size_chat"
+
+        />
+</LinearLayout>

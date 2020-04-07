@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/recycler_view_bottom_margin"
+        android:scrollbars="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horizontal_line_height"
+            android:background="@color/horizontalLine" />
+
+        <LinearLayout
+            android:paddingTop="@dimen/bottom_linear_layout_padding_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/micBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/image_button_margin_bottom"
+                android:paddingTop="@dimen/image_button_padding_top"
+                android:paddingBottom="@dimen/image_button_padding_bottom"
+                android:background="@null"
+                android:elevation="@dimen/image_button_elevation"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mic_icon" />
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_marginStart="@dimen/edit_text_layout_marginStart"
+                android:layout_marginEnd="@dimen/edit_text_layout_marginEnd"
+                android:layout_width="@dimen/edit_text_layout_width"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/edit_text_layout_marginBottom"
+                android:layout_weight="8"
+                android:background="@drawable/round_edit_text"
+                android:hint="@string/hint_edit_text"
+                android:lines="1"
+                android:paddingTop="@dimen/edit_text_paddingTop"
+                android:paddingBottom="@dimen/edit_text_paddingBottom"
+                android:paddingStart="@dimen/edit_text_paddingStart"
+                android:paddingEnd="@dimen/edit_text_paddingEnd"
+                android:textColor="@color/textColor"
+                android:textColorHint="@color/editTextHint" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btn_send"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/image_button_layout_marginEnd"
+                android:layout_marginBottom="@dimen/image_button_margin_bottom"
+                android:paddingTop="@dimen/image_button_padding_top"
+                android:paddingBottom="@dimen/image_button_padding_bottom_send"
+                android:layout_weight="1"
+                android:background="@drawable/image_button"
+                android:elevation="@dimen/image_button_elevation"
+                android:scaleType="fitCenter"
+                android:src="@drawable/send_icon" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
